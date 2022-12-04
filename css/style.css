@@ -1,18 +1,89 @@
 body {
-    margin: 0;
-    padding: 0 10% 0 10%;
+  margin: 0;
+  padding: 0 10% 0 10%;
 }
 
 header {
-    width: 100%;
-    height: 25vh;
-    background-color: rgb(95, 177, 232);
+  width: auto;
+  height: 14vh;
+  padding: 2em 2em;
 }
 
 .logo {
-    float: left;
+  width: 270px;
+  height: 95px;
+}
+
+main {
+  height: 50%;
+}
+
+.logo {
+  float: left;
 }
 
 .nav {
-    float: right;
+  float: right;
+}
+
+.principal {
+  padding: 4em 2em;
+}
+
+.img-principal {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.footer {
+  height: 80px;
+}
+
+.brand1 {
+  float: left;
+}
+
+.brand2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-resident {
+  padding-left: 2em;
+  height: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0em 1em;
+  }
+  header {
+    width: auto;
+    height: 16vh;
+    background-color: rgb(95, 177, 232);
+    padding: 2em 2em;
+  }
+
+  nav {
+    padding: 1em 2em;
+    margin-top: 100px;
+    position: absolute;
+  }
+
+  #font-contato {
+    padding: 0.6em;
+  }
+
+  .brand1 {
+    padding-left: 1em;
+  }
+
+  .brand2 {
+    padding-right: 1em;
+  }
 }
